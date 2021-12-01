@@ -26,7 +26,7 @@ The project uses 2 endpoints:
 
 ## How to run the project
 
-1. Clone this repo and move into the project folder2
+1. Clone this repo and move into the project folder
 2. Create a virtual environment to use for all the installations of packages.
 3. Install all the requirements using the command ``` pip install -r medicine/requriements.txt ```
 4. Now use the command ``` python manage.py makemigrations ``` and ``` python manage.py migrate ``` to use the table.
