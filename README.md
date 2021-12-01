@@ -11,13 +11,14 @@ medicine name and then its details from the DB.
 
 The project uses 2 endpoints:
 
-1. /create [POST]-> This endpoint should be called first as this populates the DB with the CSV data given which will help us query the medicine information later.
-2. /get_entity [POST]-> This endpoint takes in a json body in the request and returns the corresponding medicine information.
+1. /create [POST] -> This endpoint should be called first as this populates the DB with the CSV data given which will help us query the medicine information later.
+2. /get_entity [POST] -> This endpoint takes in a json body in the request and returns the corresponding medicine information.
 
 ### Usage:
 /create -> Making a POST request to the localhost 8000 port will add all the information to the DB. Returns a 201 status.
 
 /get_entity -> Making a POST request to the localhost 8000 port with a json body of key sentence which holds the user's input will allows us to extract the medical information
+              
               JSON Body:
               
 ```
