@@ -18,8 +18,8 @@ The project uses 2 endpoints:
 /create -> Making a POST request to the localhost 8000 port will add all the information to the DB. Returns a 201 status.
 
 /get_entity -> Making a POST request to the localhost 8000 port with a json body of key sentence which holds the user's input will allows us to extract the medical information
-              
-              JSON Body:
+ 
+ JSON Body:
               
 ```
 {"sentence": "Want to buy a Oloworm"}
